@@ -238,7 +238,7 @@
         },
         fetchData() {
           // fetch('https://poykott.dj4fer.repl.co/data.json')
-          fetch('https://raw.githubusercontent.com/TheBSD/poykott/main/israel-companies-services.json')
+          fetch('israel-companies-services.json')
             .then(response => response.json())
             .then(data => {
               this.companiesAndServices = data.companiesAndServices;
